@@ -14,5 +14,15 @@
         <li>this is a assigment of batch 15 smit</li>
       </ol>
     </p>
-    
+    <h2>Drive into webpage</h2>
+    <li><a href="index3.html">login</a></li>
+    <li> <a target="_blank" href=https://github.com> about github</a></li>
+    <li> <a href="index1.html">gamil</a></li>
+    <li> <a href="index2.html"> About Us </a></li>
+</body>
+
+</html>
+    "# htmal.index" 
+# khawaj-aaffan
+# htmal.index
   
