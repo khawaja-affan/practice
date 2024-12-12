@@ -1,2 +1,18 @@
-"# practice" 
-"# assigmen3" 
+!<DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Markup, Lists, and Links Challenge </title>
+</head>
+
+<body>
+    <h1>create a webpage in html</h1>
+    <p>
+      <ol>
+        <li>this is a assigment of batch 15 smit</li>
+      </ol>
+    </p>
+    
+  
