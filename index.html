@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Authentication Form</title>
+    <!-- Add Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+
+    <div class="w-full max-w-sm p-8 bg-white rounded-xl shadow-lg space-y-6">
+        <h2 class="text-2xl font-bold text-center text-gray-700">Create Account</h2>
+
+        <form id="auth-form" class="space-y-4">
+            <!-- Username Field -->
+            <div>
+                <label for="username" class="block text-sm font-semibold text-gray-600">Username</label>
+                <input type="text" id="username" name="username" required placeholder="Enter your username"
+                    class="w-full px-4 py-2 mt-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent">
+            </div>
+
+            <!-- Email Field -->
+            <div>
+                <label for="email" class="block text-sm font-semibold text-gray-600">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email"
+                    class="w-full px-4 py-2 mt-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent">
+            </div>
+
+            <!-- Password Field -->
+            <div>
+                <label for="password" class="block text-sm font-semibold text-gray-600">Password</label>
+                <input type="password" id="password" name="password" required placeholder="Enter your password"
+                    class="w-full px-4 py-2 mt-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent">
+            </div>
+
+            <!-- Submit Button -->
+            <div>
+                <button type="submit"
+                    class="w-full py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50">
+                    Sign Up
+                </button>
+            </div>
+        </form>
+
+        <div class="text-center">
+            <p class="text-sm text-gray-600">Already have an account? <a href="#" class="text-blue-500 hover:text-blue-700">Log in</a></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+
+
+
+
+</html>
